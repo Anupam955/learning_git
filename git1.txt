@@ -86,3 +86,18 @@ How to go back from Time Travel?
 
 Use of checkout COMMAND.
 =>  Travel to branch to branch
+
+
+
+
+Create a new branch 
+=>  git branch dev
+
+
+Check all the branches created and present at this moment.
+=>  git branch
+
+
+Switched to different branch on git
+=> git checkout dev
+
