@@ -1,0 +1,68 @@
+What is git?
+=>  version control system. 
+    keeps track about file changes history
+
+
+
+How to check if git is installed or not and check the installed version?
+=> git --version
+
+
+
+Set your global user nick name and email in git.
+=>  git config --global user.name "Anupam"
+    git config --global user.email "ghoshanupam021@gmail.com"
+
+
+
+
+Check your global user nick name and email in git.
+=>  git config --global user.name 
+    git config --global user.email 
+
+
+
+
+Edit your global user nick name and email in git and edit in vim editor
+=>  git config --global --edit
+
+
+
+Steps to add or push files in git
+=>  1.initialized the git
+        => git init
+    2. check the status of the folder. What are the changes have benn done or added
+        => git status
+
+
+        Here points to notice:
+
+        On branch master
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+                modified:   git1.txt
+
+        Untracked files:
+        (use "git add <file>..." to include in what will be committed)
+                newfile.txt
+
+        no changes added to commit (use "git add" and/or "git commit -a")
+
+        #modified: some changes have been done in tracked or added file
+        #untracked: files is not added or not tracked
+    3. add the required file or all files from the folder
+        => git add git1.txt
+
+        Now this files will be inside staging area, we we can track the added file changes before commiting
+                             (git add <filename>)      (git commit -m "initial commit")
+         working directory ---------------->staging area -------------------------> git repo
+
+         To add all files from the directory to instaging area,use
+         => git add .
+    4. Commit the changes with any msg to remember the changes
+        => git commit -m "initial commit1"
+
+
+        YOU CAN CHECK WHAT ARE THE COMMIT HAVE BEEN DONE USING THE FOLLOWING COMMAND
+        => git log
