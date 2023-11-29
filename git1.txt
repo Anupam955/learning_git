@@ -66,3 +66,23 @@ Steps to add or push files in git
 
         YOU CAN CHECK WHAT ARE THE COMMIT HAVE BEEN DONE USING THE FOLLOWING COMMAND
         => git log
+
+
+
+
+
+
+
+Do Time Travel in Git. Check previously committed changes.
+=>  git checkout <commit hashcode>
+    you can get commit hashcode from the  => git log
+
+
+
+How to go back from Time Travel?
+=>  git checkout master
+
+
+
+Use of checkout COMMAND.
+=>  Travel to branch to branch
