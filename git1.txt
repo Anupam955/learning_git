@@ -101,3 +101,9 @@ Check all the branches created and present at this moment.
 Switched to different branch on git
 => git checkout dev
 
+
+
+Merge an old branch with another branch like adding feature and if fine in dev, then add in master or prod also
+=>  (on master)git merge dev
+    git commit -m "added feature"
+
