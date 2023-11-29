@@ -107,3 +107,10 @@ Merge an old branch with another branch like adding feature and if fine in dev, 
 =>  (on master)git merge dev
     git commit -m "added feature"
 
+
+
+
+What does .gitignore file does?
+=>  git ignore mentioned file named in gitignore file and don't add or track them
+
+
